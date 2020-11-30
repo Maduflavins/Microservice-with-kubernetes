@@ -22,5 +22,6 @@ metadata:
 spec:
     containers:
         -   name: webapp
-            image: richardcherterwood/k8s-fleetman-weapp-angular:release0
+            image: richardcherterwood/k8s-fleetman-weapp-angular:release0.5
+
 

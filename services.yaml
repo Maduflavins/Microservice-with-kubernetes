@@ -4,7 +4,7 @@ metadata:
     name: fleetman-webapp
 spec:
     selector:
-        app: weapp
+        app: webapp
         release: "0"
     ports:
         -   name: http
