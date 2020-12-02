@@ -40,3 +40,16 @@ spec:
         - name: http
           port: 8080
     type: ClusterIP
+---
+apiVersion: v1
+kind: Service
+metadata:
+    name: fleetman-position-api-gateway
+spec:
+    selector:
+        app: api-gateway
+    ports:
+        - name: http
+          port: 8080
+    type: ClusterIP
+
